@@ -11,15 +11,71 @@
     <div class="absolute w-[220px] h-[220px] bg-cyan-300 opacity-10 rounded-full blur-2xl top-[60%] left-[20%] z-0"></div>
     <div class="absolute w-[200px] h-[200px] bg-orange-400 opacity-10 rounded-full blur-2xl bottom-[5%] left-[50%] z-0"></div>
 
-    <!-- Page Content Placeholder -->
-    <section class="relative z-10 container mx-auto py-32 text-center text-white">
-      <h1 class="text-4xl font-bold text-gray-400">Contenu à venir...</h1>
+    <!-- Calculatrice Web Project Overview -->
+    <section class="relative z-10 container mx-auto py-32 px-6 text-white">
+      <h1 class="text-3xl md:text-4xl font-extrabold text-center text-purple-400 mb-6">Site de Calculatrices - Vue d'ensemble</h1>
+      <p class="text-lg text-center text-gray-300 max-w-2xl mx-auto mb-12">
+        Application web proposant deux calculatrices : une basique pour les opérations usuelles (+, -, ×, ÷), et une scientifique plus avancée.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-left text-gray-200 mb-16">
+        <div>
+          <h3 class="text-xl font-bold text-purple-400 mb-2">Fonctionnalités</h3>
+          <ul class="list-disc list-inside space-y-1">
+            <li>Calculatrice basique</li>
+            <li>Calculatrice scientifique</li>
+            <li>Interface responsive</li>
+            <li>Support clavier</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold text-purple-400 mb-2">Stack Technique</h3>
+          <ul class="list-disc list-inside space-y-1">
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>Vue.js (v3)</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold text-purple-400 mb-2">Expérience Utilisateur</h3>
+          <ul class="list-disc list-inside space-y-1">
+            <li>Transitions fluides</li>
+            <li>Thème sombre clair</li>
+            <li>Raccourcis claviers</li>
+            <li>Validation dynamique</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold text-purple-400 mb-2">Objectifs</h3>
+          <ul class="list-disc list-inside space-y-1">
+            <li>Pratique algorithmique</li>
+            <li>Apprentissage Vue 3</li>
+            <li>Améliorer le design UI</li>
+          </ul>
+        </div>
+      </div>
+
+      <!--<div class="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
+        <img src="/data/calc-basic.png" alt="Calculatrice basique" class="rounded-xl shadow-lg max-w-sm">
+        <img src="/data/calc-advanced.png" alt="Calculatrice scientifique" class="rounded-xl shadow-lg max-w-sm">
+      </div>-->
+
+      <div class="text-center">
+        <a
+          href="#"
+          target="_blank"
+          class="inline-flex items-center gap-2 px-6 py-3 text-white font-semibold rounded-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 shadow-xl transition"
+        >
+          Voir code source ↗
+        </a>
+      </div>
     </section>
   </div>
 </template>
 
 <script setup>
-// page vierge
+// calculatrice vue web
 </script>
 
 <style scoped>
