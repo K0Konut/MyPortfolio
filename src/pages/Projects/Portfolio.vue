@@ -57,7 +57,6 @@
       <div class="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
         <img src="/data/Code.png" alt="Code développement" class="rounded-xl shadow-lg max-w-sm">
         <img src="/data/Deployment.png" alt="Interface déploiement" class="rounded-xl shadow-lg max-w-sm">
-        <img src="/favicon.ico" alt="Feedback utilisateur" class="rounded-xl shadow-lg max-w-sm">
       </div>
 
       <div class="text-center">
