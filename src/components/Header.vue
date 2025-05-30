@@ -1,4 +1,3 @@
-// /src/components/Header.vue
 <template>
   <header class="bg-gray-900 text-white shadow-xl sticky top-0 z-50 backdrop-blur-md bg-opacity-80 transition-all duration-500">
     <nav class="container mx-auto flex justify-between items-center py-4 px-6">
@@ -48,8 +47,8 @@
         </li>
       </ul>
 
-      <div class="md:hidden">
-        <button class="text-white focus:outline-none">
+      <div class="md:hidden relative">
+        <button @click="menuOpen = !menuOpen" class="text-white focus:outline-none">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-7 w-7"
@@ -65,13 +64,23 @@
             />
           </svg>
         </button>
+        <div
+          v-if="menuOpen"
+          class="absolute right-0 mt-4 bg-gray-800 text-white rounded-xl py-4 px-6 w-48 shadow-lg z-50"
+        >
+          <router-link to="/" class="block py-2 hover:text-blue-400">Accueil</router-link>
+          <router-link to="/projects" class="block py-2 hover:text-blue-400">Projets</router-link>
+          <router-link to="/about" class="block py-2 hover:text-blue-400">À propos</router-link>
+          <router-link to="/contact" class="block py-2 hover:text-blue-400">Contact</router-link>
+        </div>
       </div>
     </nav>
   </header>
 </template>
 
 <script setup>
-// Aucune logique JS pour l’instant
+import { ref } from 'vue';
+const menuOpen = ref(false);
 </script>
 
 <style scoped>
