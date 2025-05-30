@@ -55,10 +55,10 @@
         </div>
       </div>
 
-      <div class="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
+      <!--<div class="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
         <img src="/data/discord-code.png" alt="Code Python bot Discord" class="rounded-xl shadow-lg max-w-sm">
         <img src="/data/discord-output.png" alt="Interaction bot Discord" class="rounded-xl shadow-lg max-w-sm">
-      </div>
+      </div>-->
 
       <div class="text-center">
         <a
