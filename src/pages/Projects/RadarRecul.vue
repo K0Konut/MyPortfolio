@@ -56,10 +56,10 @@
         </div>
       </div>
 
-      <div class="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
+      <!--<div class="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
         <img src="/data/radar-led.jpg" alt="Afficheur LED radar" class="rounded-xl shadow-lg max-w-sm">
         <img src="/data/radar-stm.jpg" alt="STM32 et capteur" class="rounded-xl shadow-lg max-w-sm">
-      </div>
+      </div>-->
 
       <div class="text-center">
         <a
