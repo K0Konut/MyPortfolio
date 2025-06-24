@@ -13,7 +13,7 @@
 
     <!-- Page Content -->
     <section class="relative z-10 container mx-auto py-32 px-6 text-white">
-      <h1 class="text-3xl md:text-4xl font-extrabold text-center text-purple-400 mb-6">Portfolio Next.js - Vue d'ensemble</h1>
+      <h1 class="text-3xl md:text-4xl font-extrabold text-center text-purple-400 mb-6">Portfolio Vue.js - Vue d'ensemble</h1>
       <p class="text-lg text-center text-gray-300 max-w-2xl mx-auto mb-12">
         Un portfolio professionnel moderne avec des effets visuels avancés, construit comme une application web responsive.
       </p>
