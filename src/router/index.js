@@ -10,6 +10,7 @@ import RadarRecul from '../pages/Projects/RadarRecul.vue';
 import Login from '../components/Login.vue';  
 import Admin from '../pages/Admin.vue';
 
+
 const routes = [
   { path: '/', component: Home },
   { path: '/projects', component: Projects },
@@ -20,7 +21,7 @@ const routes = [
   { path: '/about', component: About },
   { path: '/contact', component: Contact },
   { path: '/login', component: Login },
-  {path: '/admin', component: Admin },
+  { path: '/admin', component: Admin },
 
 ];
 
