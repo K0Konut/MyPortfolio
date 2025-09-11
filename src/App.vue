@@ -3,6 +3,7 @@
     <Header />
     <router-view />
     <Footer />
+    <SpeedInsights />
   </div>
 </template>
 
@@ -10,5 +11,6 @@
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 import { inject } from "@vercel/analytics";
+import { SpeedInsights } from "@vercel/speed-insights/vue";
 inject(); // Active Vercel Analytics
 </script>
