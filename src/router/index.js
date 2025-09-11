@@ -7,6 +7,8 @@ import Portfolio from '../pages/Projects/Portfolio.vue';
 import BotDiscord from '../pages/Projects/BotDiscord.vue';
 import CalculatorWeb from '../pages/Projects/CalculatorWeb.vue';
 import RadarRecul from '../pages/Projects/RadarRecul.vue';
+import Login from '../components/Login.vue';
+import Admin from '../pages/Admin.vue';
 
 const routes = [
   { path: '/', component: Home },
@@ -17,6 +19,8 @@ const routes = [
   { path: '/projects/radar', component: RadarRecul },
   { path: '/about', component: About },
   { path: '/contact', component: Contact },
+  { path: '/login', component: Login },
+  {path: '/admin', component: Admin },
 
 ];
 
