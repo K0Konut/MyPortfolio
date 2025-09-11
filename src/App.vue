@@ -9,4 +9,6 @@
 <script setup>
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
+import { inject } from "@vercel/analytics";
+inject(); // Active Vercel Analytics
 </script>
