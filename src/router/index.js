@@ -7,7 +7,7 @@ import Portfolio from '../pages/Projects/Portfolio.vue';
 import BotDiscord from '../pages/Projects/BotDiscord.vue';
 import CalculatorWeb from '../pages/Projects/CalculatorWeb.vue';
 import RadarRecul from '../pages/Projects/RadarRecul.vue';
-import Login from '../components/Login.vue';
+import Login from '../components/Login.vue';  
 import Admin from '../pages/Admin.vue';
 
 const routes = [
