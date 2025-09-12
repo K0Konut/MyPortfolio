@@ -9,11 +9,13 @@ import CalculatorWeb from '../pages/Projects/CalculatorWeb.vue';
 import RadarRecul from '../pages/Projects/RadarRecul.vue';
 import Login from '../components/Login.vue';  
 import Admin from '../pages/Admin.vue';
+import ProjectDetail from '../pages/ProjectDetail.vue';
 
 
 const routes = [
   { path: '/', component: Home },
   { path: '/projects', component: Projects },
+  { path: '/projects/:id', name: 'ProjectDetail', component: ProjectDetail},
   { path: '/projects/portfolio', component: Portfolio },
   { path: '/projects/botdiscord', component: BotDiscord },
   { path: '/projects/calculatorweb', component: CalculatorWeb },

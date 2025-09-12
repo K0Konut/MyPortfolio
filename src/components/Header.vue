@@ -8,6 +8,7 @@
         Maskulov Costa
       </router-link>
 
+      <!-- Menu desktop -->
       <ul class="hidden md:flex items-center gap-8 text-sm font-medium">
         <li><router-link to="/" class="group relative hover:text-blue-400 transition duration-300">Accueil <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-400 transition-all duration-300 group-hover:w-full block"></span></router-link></li>
         <li><router-link to="/projects" class="group relative hover:text-blue-400 transition duration-300">Projets <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-400 transition-all duration-300 group-hover:w-full block"></span></router-link></li>
@@ -15,7 +16,12 @@
         <li><router-link to="/contact" class="group relative hover:text-blue-400 transition duration-300">Contact <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-400 transition-all duration-300 group-hover:w-full block"></span></router-link></li>
         <li>
           <template v-if="user">
-            <span class="mr-2 text-xs text-gray-300">{{ user.email }}</span>
+            <router-link
+              to="/admin"
+              class="mr-2 text-xs text-blue-400 hover:text-blue-500 underline"
+            >
+              {{ user.email }}
+            </router-link>
             <button @click="logout" class="text-red-400 hover:text-red-500 transition text-sm">
               Se déconnecter
             </button>
@@ -42,11 +48,20 @@
           <router-link to="/contact" class="block py-2 hover:text-blue-400">Contact</router-link>
           <hr class="my-2 border-gray-600" />
           <template v-if="user">
-            <span class="block text-xs text-gray-300 mb-1">{{ user.email }}</span>
-            <button @click="logout" class="block w-full text-left py-2 text-red-400 hover:text-red-500">Se déconnecter</button>
+            <router-link
+              to="/admin"
+              class="block text-xs text-blue-400 hover:text-blue-500 mb-2 underline"
+            >
+              {{ user.email }}
+            </router-link>
+            <button @click="logout" class="block w-full text-left py-2 text-red-400 hover:text-red-500">
+              Se déconnecter
+            </button>
           </template>
           <template v-else>
-            <button @click="goToLogin" class="block w-full text-left py-2 text-blue-400 hover:text-blue-500">Se connecter</button>
+            <button @click="goToLogin" class="block w-full text-left py-2 text-blue-400 hover:text-blue-500">
+              Se connecter
+            </button>
           </template>
         </div>
       </div>
