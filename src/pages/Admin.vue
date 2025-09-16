@@ -23,10 +23,11 @@ const goTo = (path) => {
 </script>
 
 <template>
-  <div class="dark bg-gray-900 min-h-screen flex items-center justify-center px-6 py-20">
+  <!-- Conteneur fixe plein écran -->
+  <div class="fixed inset-0 dark bg-gray-900 flex items-center justify-center overflow-hidden">
     <div
       v-if="user"
-      class="max-w-3xl mx-auto bg-gray-800/90 p-12 rounded-2xl text-white shadow-2xl border border-gray-700"
+      class="max-w-3xl w-full bg-gray-800/90 p-12 rounded-2xl text-white shadow-2xl border border-gray-700"
     >
       <h1
         class="text-4xl font-extrabold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500"
