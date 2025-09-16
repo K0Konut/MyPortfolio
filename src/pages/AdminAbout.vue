@@ -84,6 +84,16 @@ const handleFile = (e) => {
 
 <template>
   <div class="dark bg-gray-900 min-h-screen px-6 py-20">
+    <!-- Bouton retour -->
+    <div class="mb-6">
+      <router-link
+        to="/admin"
+        class="inline-flex items-center gap-2 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-white font-medium shadow-md"
+      >
+        ⬅️ Retour au menu Admin
+      </router-link>
+    </div>
+
     <div v-if="user" class="max-w-4xl mx-auto bg-gray-800/90 p-10 rounded-2xl text-white">
       <h1
         class="text-4xl font-extrabold mb-10 text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500"
