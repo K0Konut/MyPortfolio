@@ -1,0 +1,31 @@
+* [33m7c2945f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m changes in admin
+* [33m67591cc[m add the back to admin.vue
+* [33mb412da2[m add the about manage in admin
+* [33m3f0a178[m del import index.js
+* [33m621c6d1[m delete routing for the page del
+* [33mccefc06[m delete last project pages
+* [33mbe9392d[m drag and drop image survey
+* [33m644184b[m rework survey
+* [33mdbb838b[m add a dynamic project page
+* [33m19a73ac[m add the admin page
+* [33mb935d4c[m fix the login page
+* [33mc2a5b29[m fix the login page
+* [33mbebfec6[m rework the login page
+* [33m56103fd[m add a login and admin page
+* [33m44de66f[m Add the speedinsight
+* [33m228da83[m add the analytics
+* [33m4d0f779[m rework analytics
+* [33m216f09d[m add the analytics
+* [33m01e1098[m rework the portfolio project
+* [33m7a07e87[m smartphone toolbar
+* [33m11c6e6a[m rework the page code
+* [33mc4fc404[m add the radar de recul project pages
+* [33mb3e5cd8[m add the calculator web page
+* [33mb5ca065[m rework the code
+* [33m93c516f[m add the Botdiscord project page
+* [33m6a41b92[m add the Botdiscord project page
+* [33ma02a474[m remove an img
+* [33mf8333e7[m add the deployement photo tO portfolio project page
+* [33md444b10[m clean up: remove node_modules from git tracking
+* [33m010c2d4[m add the project
+* [33m1aa395e[m first commit
