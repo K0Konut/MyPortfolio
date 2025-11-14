@@ -63,7 +63,7 @@
           Télécharger le CV
         </a>
         <a
-          href="/data/CV_FR.pdf"
+          href="/data/Costa-Maskulov-CV-ATS.pdf"
           target="_blank"
           class="inline-flex items-center gap-2 border-2 border-purple-600 text-purple-400 hover:text-white hover:border-white font-semibold py-3 px-8 rounded-full transition-all"
         >
