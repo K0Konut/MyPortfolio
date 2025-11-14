@@ -53,7 +53,7 @@
       </p>
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
         <a
-          href="/data/CV_FR.pdf"
+          href="/data/Costa-Maskulov-CV-ATS.pdf"
           download="CV_FR_Costa_Maskulov.pdf"
           class="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-semibold py-3 px-8 rounded-full shadow-xl transition-all"
         >
