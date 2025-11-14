@@ -53,8 +53,8 @@
       </p>
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
         <a
-          href="/data/Costa-Maskulov-CV-ATS.pdf"
-          download="CV_FR_Costa_Maskulov.pdf"
+          href="/data/CV-FR.pdf"
+          download="CV-FR.pdf"
           class="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-semibold py-3 px-8 rounded-full shadow-xl transition-all"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -63,7 +63,7 @@
           Télécharger le CV
         </a>
         <a
-          href="/data/Costa-Maskulov-CV-ATS.pdf"
+          href="/data/CV-FR.pdf"
           target="_blank"
           class="inline-flex items-center gap-2 border-2 border-purple-600 text-purple-400 hover:text-white hover:border-white font-semibold py-3 px-8 rounded-full transition-all"
         >
